@@ -469,6 +469,21 @@ intervención manual**.
 
 ---
 
+## 🔐 HTTPS Implementation (Update)
+
+La plataforma ha sido actualizada para soportar conexiones seguras mediante HTTPS utilizando Let's Encrypt y Certbot.
+
+Esta mejora incluye:
+
+- Configuración de Nginx como reverse proxy con SSL
+- Generación automática de certificados con Certbot
+- Redirección HTTP → HTTPS
+- Soporte completo para OAuth y webhooks seguros
+
+👉 Ver documentación completa aquí:
+
+[HTTPS Setup with Nginx, Docker & Let's Encrypt](n8n-https-nginx-docker.md)
+
 # Conclusion
 
 Este proyecto demuestra cómo construir una **plataforma de
